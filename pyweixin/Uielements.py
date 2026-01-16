@@ -111,6 +111,7 @@ class ListItems():
         self.RecentGroupListItem={'control_type':'ListItem','class_name':'mmui::ContactsManagerControlFolderCell','title':'最近群聊'}#通讯录管理界面中的最近群聊
         self.AllListItem={'title':'全部','control_type':'ListItem','class_name':'mmui::XTableCell'}#聊天文件界面中的全部
 
+
 class Texts():
     '''微信主界面以及设置界面内所有类型为Text的UI控件'''
     def __init__(self):
@@ -129,6 +130,8 @@ class Texts():
         self.LockWechatShortcutText={'title':'锁定微信','control_type':'Text'}#锁定微信快捷键文本,修改快捷键设置时要用到
         self.LanguageText={'title':'语言','control_type':'Text'}#语言文本，修改微信语言时要用到
         self.GroupNameText={'title':'群聊名称','control_type':'Text'}#群聊设置界面内的群聊名称文本
+
+        self.ContactProfileTextView_Weixinhao={'class_name':'mmui::ContactProfileTextView','control_type':'Text'}#联系人详情界面里的文本
 
 class TabItems():
     def __init__(self):
@@ -159,6 +162,7 @@ class Lists():
         self.ChannelList={'title':'视频号','control_type':'List'}#微信聊天记录窗口中选择视频号后的列表
         self.SideList={'control_type':'List','class_name':'mmui::ContactsManagerControlView'}#通讯录管理界面左侧侧边栏
         self.ContactsManageList={'control_type':'List','class_name':'mmui::ContactsManagerControlView'}#通讯录管理界面左侧列表
+        self.ContactsManageDetail={'control_type':'List','class_name':'mmui::ContactsManagerDetailView'}#通讯录管理界面右侧详情列表
         self.FileList={'control_type':'List','auto_id':'file_list','class_name':'mmui::XRecyclerTableView'}#聊天文件右侧的文件列表
 
 class Panes():

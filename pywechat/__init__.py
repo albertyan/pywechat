@@ -38,10 +38,10 @@ Python-version:3.x,\tWechatVersion:3.9.12.5x\n
 Have fun in WechatAutomation (＾＿－)
 ====
 '''
-from.WechatAuto import *
-from.WechatTools import *
-from.WinSettings import *
-from.Clock import *
+from .WechatAuto import *
+from .WechatTools import *
+from .WinSettings import *
+from .Clock import *
 #Author:Hello-Mr-Crab
 #version:1.9.6
 
